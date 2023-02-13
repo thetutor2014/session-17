@@ -1,0 +1,69 @@
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times may be slower.
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-02-13 18:35 Iran Standard Time
+NSOCK ERROR [0.3490s] ssl_init_helper(): OpenSSL legacy provider failed to load.
+
+NSE: Loaded 155 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 18:35
+Completed NSE at 18:35, 0.00s elapsed
+Initiating NSE at 18:35
+Completed NSE at 18:35, 0.00s elapsed
+Initiating NSE at 18:35
+Completed NSE at 18:35, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 18:35
+Completed Parallel DNS resolution of 1 host. at 18:35, 0.00s elapsed
+Initiating SYN Stealth Scan at 18:35
+Scanning my.mci.ir (5.106.4.3) [1000 ports]
+Discovered open port 80/tcp on 5.106.4.3
+Discovered open port 443/tcp on 5.106.4.3
+Completed SYN Stealth Scan at 18:35, 4.56s elapsed (1000 total ports)
+Initiating Service scan at 18:35
+Scanning 2 services on my.mci.ir (5.106.4.3)
+Completed Service scan at 18:35, 5.00s elapsed (2 services on 1 host)
+Initiating OS detection (try #1) against my.mci.ir (5.106.4.3)
+Retrying OS detection (try #2) against my.mci.ir (5.106.4.3)
+Initiating Traceroute at 18:36
+Completed Traceroute at 18:36, 0.02s elapsed
+NSE: Script scanning 5.106.4.3.
+Initiating NSE at 18:36
+Completed NSE at 18:36, 19.77s elapsed
+Initiating NSE at 18:36
+Completed NSE at 18:36, 28.17s elapsed
+Initiating NSE at 18:36
+Completed NSE at 18:36, 0.00s elapsed
+Nmap scan report for my.mci.ir (5.106.4.3)
+Host is up (0.0017s latency).
+Not shown: 996 filtered tcp ports (no-response), 1 filtered tcp ports (admin-prohibited)
+PORT    STATE  SERVICE    VERSION
+80/tcp  open   tcpwrapped
+113/tcp closed ident
+443/tcp open   tcpwrapped
+| ssl-cert: Subject: commonName=*.mci.ir
+| Subject Alternative Name: DNS:*.mci.ir, DNS:mci.ir
+| Issuer: commonName=Certum Domain Validation CA SHA2/organizationName=Unizeto Technologies S.A./countryName=PL
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2022-08-30T10:40:13
+| Not valid after:  2023-08-13T08:04:32
+| MD5:   5fef9e7f307abec30101124455444a0b
+|_SHA-1: 0b50070dd3f922589219be9a2be4f66b774e0a57
+Aggressive OS guesses: Vonage V-Portal VoIP adapter (89%), Cisco Unified Communications Manager VoIP adapter (89%), Android 7.1.2 (Linux 3.10) (89%), DD-WRT v23 (Linux 2.4.36) (89%), Vyatta router (Linux 2.6.26) (89%), Linux 2.6.18 (89%), Linux 2.6.26 (PCLinuxOS) (89%), Tomato firmware (Linux 2.6.22) (89%), MikroTik RouterOS 5.25 (Linux 2.6.35) (89%), Netgear ReadyNAS Duo NAS device (RAIDiator 4.1.4) (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE (using port 113/tcp)
+HOP RTT     ADDRESS
+1   1.00 ms my.mci.ir (5.106.4.3)
+
+NSE: Script Post-scanning.
+Initiating NSE at 18:36
+Completed NSE at 18:36, 0.00s elapsed
+Initiating NSE at 18:36
+Completed NSE at 18:36, 0.00s elapsed
+Initiating NSE at 18:36
+Completed NSE at 18:36, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 65.42 seconds
+           Raw packets sent: 2145 (99.496KB) | Rcvd: 26 (1.360KB)
